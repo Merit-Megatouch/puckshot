@@ -2,18 +2,3 @@
 # megatouch-host loads the game with RTLD_NOW, so each of these must be defined
 # (usually in src/host/loader_services.cpp) before the game will start.
 # symbol | needed by
-LinkedWithCnt | puckshot.so
-SavedLanguage | puckshot.so
-WhoWeArePlaying | puckshot.so
-GetPackets(char*, int) | puckshot.so
-ScreenClear(int) | puckshot.so
-GetTouchCoord(int*, int*, int*) | puckshot.so
-SendPilePacket(char*, int) | puckshot.so
-DisplayDefeated(int, int) | puckshot.so
-Heartbeat_Check(int, int) | puckshot.so
-InFormOfIDUsage(unsigned char, unsigned char) | puckshot.so
-ProcessRTPackets() | puckshot.so
-GetMyId() | puckshot.so
-PlayWave(char*, unsigned short, int, int, int, bool) | puckshot.so
-GetMaster() | puckshot.so
-SetMaster(unsigned char) | puckshot.so

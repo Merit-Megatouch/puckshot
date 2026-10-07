@@ -1,6 +1,6 @@
 # PUCK SHOT (puckshot)
 
-Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
+Status: runs (legacy engine, smoke-tested 2026-10-07). Plays from the start screen; network-link features are no-ops.
 
 ## Checklist
 - [ ] Window size in game.conf matches the largest PNG (notes/scaffold.md)
@@ -15,3 +15,5 @@ Status: scaffolded 2026-10-07. Facts: [notes/scaffold.md](notes/scaffold.md).
 
 ## Log
 <!-- dated notes: what broke, what fixed it -->
+
+- 2026-10-07 — runs on src/legacy with no stubs; Plays from the start screen; network-link features are no-ops.
